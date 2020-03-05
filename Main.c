@@ -109,6 +109,6 @@ int main(void){
         printf("Nome: %s\n",vet_Person[i].Name);
         printf("Idade: %d\n",vet_Person[i].Age);        
     }
-
+    system("pause");
     free(vet_Person);
 }
